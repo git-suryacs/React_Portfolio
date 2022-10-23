@@ -1,8 +1,10 @@
 import React from 'react';
 import WorkImg from '../assets/working.jpeg';
 import work2 from '../assets/work2.png';
-import work1 from '../assets/work1.png'
-import realEstate from '../assets/realestate.jpg'
+import work1 from '../assets/work1.png';
+import realEstate from '../assets/realestate.jpg';
+import garage from '../assets/download.png';
+import AppImage from '../assets/app.jpg';
 
 const Work = () => {
   return (
@@ -18,7 +20,7 @@ const Work = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-            {/* Grid Item */}
+            {/* Causal Learing */}
           <div
             style={{ backgroundImage: `url(${work1})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -31,7 +33,7 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 
-                <a href='/'>
+                <a href='https://drive.google.com/drive/folders/1xYS5p4lzk7Mp3VRGkKIvamC39Chn7vN_?usp=sharing'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Details
                   </button>
@@ -39,6 +41,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* Deep Learning */}
           <div
             style={{ backgroundImage: `url(${work2})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -57,54 +60,45 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+            {/* IOT */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${garage})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Automating and securing the access of library through face recognition using deep learning integrated with RFID technology
+            <div className='px-2 opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-white tracking-wider'>
+              Built a IOT based smart garage system was developed with features like temperature monitor and security enhancement.
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+              <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    Details
                   </button>
                 </a>
               </div>
             </div>
           </div>
+          {/*  App */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${AppImage})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+            <div className='px-2 opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-white tracking-wider'>
+              Built an attendance mobile application using android studio which was developed based on college requirement
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+              <a href='https://drive.google.com/drive/folders/1PKwt7zGZSgiVpB_htPDsZ673L5MlQvRX?usp=sharing'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    Details
                   </button>
                 </a>
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+          {/* Work Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -128,6 +122,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* Work Item */}
           <div
             style={{ backgroundImage: `url(${realEstate})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'

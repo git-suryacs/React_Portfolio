@@ -6,9 +6,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.svg';
-import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 import Aws from '../assets/azure.png'
 
