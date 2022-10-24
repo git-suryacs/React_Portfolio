@@ -5,12 +5,10 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
+import Node from '../assets/node.svg';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
-import Aws from '../assets/aws.png'
+import Aws from '../assets/azure.png'
 
 const Skills = () => {
     return (
@@ -18,8 +16,8 @@ const Skills = () => {
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
-                    <p className='py-4'>These are the technologies I've worked with</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-pink-300'>Skills</p>
+                    <p className='py-4'>These are the technologies I've worked with and a lot more</p>
                 </div>
                 {/* Containter for all the icons */}
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -45,7 +43,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Node} alt="Node icon" />
-                        <p className='my-4'>NODE JS</p>
+                        <p className='my-4'>DJANGO</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Mongo} alt="Mongo icon" />
@@ -53,7 +51,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Aws} alt="Aws icon" />
-                        <p className='my-4'>AWS</p>
+                        <p className='my-4'>AZURE</p>
                     </div>
                 </div>
             </div>
