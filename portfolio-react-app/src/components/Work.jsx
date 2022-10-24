@@ -1,8 +1,8 @@
 import React from 'react';
-import WorkImg from '../assets/working.jpeg';
+import work4 from '../assets/work4.png';
 import work2 from '../assets/work2.png';
 import work1 from '../assets/work1.png';
-import realEstate from '../assets/realestate.jpg';
+import upcoming from '../assets/upcoming.jpg';
 import garage from '../assets/download.png';
 import AppImage from '../assets/app.jpg';
 
@@ -33,7 +33,7 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 
-                <a href='https://drive.google.com/drive/folders/1xYS5p4lzk7Mp3VRGkKIvamC39Chn7vN_?usp=sharing'>
+                <a href='https://github.com/git-suryacs/Causal-network-and-machine-learning'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Details
                   </button>
@@ -90,7 +90,7 @@ const Work = () => {
               Built an attendance mobile application using android studio which was developed based on college requirement
               </span>
               <div className='pt-8 text-center'>
-              <a href='https://drive.google.com/drive/folders/1PKwt7zGZSgiVpB_htPDsZ673L5MlQvRX?usp=sharing'>
+              <a href='https://github.com/git-suryacs/Attendance-mob-application'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Details
                   </button>
@@ -100,23 +100,18 @@ const Work = () => {
           </div>
           {/* Work Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${work4})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+            <div className='px-2 opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-white tracking-wider'>
+              Telecom Chrun rate prediction using supervised learning machine learning methods
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+              <a href='https://github.com/git-suryacs/Data-Analytics'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    Details
                   </button>
                 </a>
               </div>
@@ -124,25 +119,16 @@ const Work = () => {
           </div>
           {/* Work Item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${upcoming})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+            <div className='px-2 opacity-0 group-hover:opacity-100'>
+              <span className='text-1xl font-bold text-white tracking-wider'>
+                Upcoming Projects
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
+                
               </div>
             </div>
           </div>
