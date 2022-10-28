@@ -15,8 +15,8 @@ const About = () => {
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                   <div className='sm:text-left text-1xl'>
                     <div className='py-2'><p className='text-center border-b-2 border-pink-200 inline'>Education</p></div>
-                    <p className='text-left'>MSc - Computer Science - Queen Mary, University of London. (2021 - 2022)</p>
-                    <p className='text-left py-6'>B.E - Computer Science and Engineering - Sri Krishna College of Technology, India. CGPA - 8.45/10.00 (2016-2020)</p>
+                    <p className='text-left'>MSc - Computer Science - Queen Mary, University of London. Grade : Distinction - (2021 - 2022)</p>
+                    <p className='text-left py-6'>B.E - Computer Science and Engineering - Sri Krishna College of Technology, India. Grade : Merit - (2016-2020)</p>
                     <div className='py-2'><p className='text-center border-b-2 border-pink-200 inline'>UK Experience</p></div>
                     <p className='py-2 font-bold'>Web developer intern - OpportunityM (July 2022 - Oct 2022)</p>
                     <p>Worked on a range of technology stacks such as HTML, CSS, React, and Django. Implemented Stripe Client-side integration for customer payments. Hosted react application to AWS and routed to a custom domain address.</p>
